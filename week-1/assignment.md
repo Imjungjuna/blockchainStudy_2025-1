@@ -25,8 +25,8 @@
 
 ---
 
-**두번째 과제:** Remix IDE 상에서 간단한 스마트 컨트랙트 배포하기
-컨트랙트 포함 기능: 사람별로 생일을 저장하고 조회하는 기능
+**두번째 과제**: Remix IDE 상에서 간단한 스마트 컨트랙트 배포하기  
+**컨트랙트 포함 기능**: 사람별로 생일을 저장하고 조회하는 기능
 
 아래 강의 [2:54:56](https://www.youtube.com/watch?v=-1GB6m39-rM&t=10496s) ~ 4:12:50를 참고하시기 바랍니다.
 
@@ -37,22 +37,16 @@ https://www.youtube.com/watch?v=-1GB6m39-rM&t=15262s&ab_channel=PatrickCollins
 💡 웹 브라우저 환경의 Remix IDE 위의 **Remix VM(로컬 환경)**에서 개발 시에는
 필요 없지만, 추후에 개발을 할 때에 필수적인 metamask 계정과 testnet 이더리움을 받는 과정입니다.
 
-**1.**
-
-https://metamask.io/
+**1.** https://metamask.io/
 접속해서 Metamask 계정 생성하기 (비밀 복구 구문 메모 필수)
 
-**2.**
-
-Metamask 확장 프로그램 설치 후 **Sepolia Testnet**으로 이동
+**2.** Metamask 확장 프로그램 설치 후 **Sepolia Testnet**으로 이동
 Sepolia Testnet :
 
 이더리움 메인넷과 별개로 존재하는 테스트 네트워크(testnet)
 이더리움 핵심 개발팀이 권장하는 기본 테스트넷
 
-**3.**
-
-https://cloud.google.com/application/web3/faucet/ethereum/sepolia
+**3.** https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 
 ⬆ 앞으로 **Sepolia Testnet** 사용하게 될 거라 위 링크로 들어가셔서 _메타마스크 지갑 주소_
 Ctrl + V 하신 후 Testnet Ether 받아주시면 됩니다! (하루에 한번 제한 있으니 종종 가서 받아주세요)
