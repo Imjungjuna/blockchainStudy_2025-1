@@ -2,7 +2,8 @@
 pragma solidity ^0.8.24;
 
 // import {IDStorage, SimpleStorage} from "./id_storage.sol";
-import {IDStorage} from "./id_storage.sol";
+// import {IDStorage} from "./id_storage.sol"; when importing locally
+import "https://github.com/Imjungjuna/blockchainStudy_2025-1/blob/main/week-2/code/id_storage.sol";
 
 contract StorageFactory {
     IDStorage[] public listOfIDStorageContracts;

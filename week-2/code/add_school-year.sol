@@ -2,7 +2,9 @@
 
 pragma solidity ^0.8.24;
 
-import {IDStorage} from "./id_storage.sol";
+// import {IDStorage} from "./id_storage.sol"; when importing locally
+import "https://github.com/Imjungjuna/blockchainStudy_2025-1/blob/main/week-2/code/id_storage.sol";
+
 // Import OpenZeppelin's Strings utility
 import "@openzeppelin/contracts/utils/Strings.sol";
 
@@ -13,11 +15,10 @@ contract AddSchoolYear is IDStorage {
 
     using Strings for uint256;
     string public schoolYear = "2025";
-    string public studentID;
+    mapping(string => string) public nameToStudentId;
+
 
     function addPerson(string memory _name, uint256 _id) public override {
-        listOfPeople.push(Person(_id, _name));
-        nameToId[_name] = _id;
-        studentID = string.concat(schoolYear,_id.toString());    
+        nameToStudentId[_name] = string.concat(schoolYear,_id.toString());  
     }
 }
