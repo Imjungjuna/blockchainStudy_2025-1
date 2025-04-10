@@ -37,12 +37,12 @@ https://www.youtube.com/watch?v=-1GB6m39-rM&t=15262s&ab_channel=PatrickCollins
 💡 웹 브라우저 환경의 Remix IDE 위의 **Remix VM(로컬 환경)**에서 개발 시에는
 필요 없지만, 추후에 개발을 할 때에 필수적인 metamask 계정과 testnet 이더리움을 받는 과정입니다.
 
-**1. **
+**1.**
 
 https://metamask.io/
 접속해서 Metamask 계정 생성하기 (비밀 복구 구문 메모 필수)
 
-**2. **
+**2.**
 
 Metamask 확장 프로그램 설치 후 **Sepolia Testnet**으로 이동
 Sepolia Testnet :
@@ -50,7 +50,7 @@ Sepolia Testnet :
 이더리움 메인넷과 별개로 존재하는 테스트 네트워크(testnet)
 이더리움 핵심 개발팀이 권장하는 기본 테스트넷
 
-**3. **
+**3.**
 
 https://cloud.google.com/application/web3/faucet/ethereum/sepolia
 
