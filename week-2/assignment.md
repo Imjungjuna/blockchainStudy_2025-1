@@ -1,4 +1,4 @@
-# 블록체인 스터디 2주차
+## 블록체인 스터디 2주차
 
 **안녕하세요!**
 
@@ -25,9 +25,9 @@ https://www.youtube.com/watch?v=qgqUkL4Yovc&ab_channel=%EB%85%B8%EB%A7%88%EB%93%
 개념을 습득한 이후에는 하나의 트랜잭션에 어떤 정보들이 포함되고, 어떻게 사용되는지 등을
 학습할 차례입니다. Sepolia Testnet 이더스캔에 들어가셔서 트랜잭션에 어떤 정보들이 포함되는지, 각각의 의미가 무엇인지 찾아보시며 정리하시길 바랍니다.
 
-[link ->](https://sepolia.etherscan.io/tx/0xfcf06b40a9b70bd7183b79234ac12900e52b5206d8ae20ed972baaee3ab8ace5)
+[이더스캔 링크](https://sepolia.etherscan.io/tx/0xfcf06b40a9b70bd7183b79234ac12900e52b5206d8ae20ed972baaee3ab8ace5)
 
-1주차 스터디 시간에 실습하는 과정에서 `Add Person` 함수를 호출하였을 때 생성된 트랜잭션의
+⬆ 1주차 스터디 시간에 실습하는 과정에서 `Add Person` 함수를 호출하였을 때 생성된 트랜잭션의
 링크입니다. 해당 링크로 들어가 transaction detail을 살펴보며 학습하시기 바랍니다.
 
 아래는 필수적으로 학습해야 하는 개념입니다.
