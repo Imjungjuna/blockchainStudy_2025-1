@@ -1,6 +1,6 @@
 안녕하세요!
 
-3주차에는 **ERC20 토큰 및 Solidity 입문(3)**을 다룹니다.
+3주차에는 ERC20 토큰 및 Solidity 입문(3)을 다룹니다.
 토큰의 표준이 되는 ERC20을 알고 활용하는 것이 이번 주 목표이며, 향후 차익 거래 봇 개발에 필수적인 토큰 간 전송과 밸런스 확인 등 기초를 익히는 한 주가 되겠습니다.
 
 ---
@@ -58,6 +58,15 @@ https://brunch.co.kr/@gapcha/162
 
 ---
 
+지난 주와 마찬가지로 효과적인 학습을 위해 리서치와 개발 과제가 하나씩 주어졌습니다.
+
+시험 기간을 고려해 부담은 줄이고, 꼭 필요한 핵심 개념을 담았으니 집중해서 공부해 주세요!
+이번 주까지 진행하고 중간고사 기간에는 휴식 주간을 가질 예정입니다.
+
+이번 주도 화이팅입니다✌!
+
+---
+
 [추천 강좌 : Beginner - **Blockchain Basics , Solidity Smart Contract Development** ]
 
 [Blockchain and Smart Contract Development Courses - Cyfrin Updraft](https://updraft.cyfrin.io/)
@@ -66,15 +75,6 @@ https://brunch.co.kr/@gapcha/162
 짧은 영상 길이 + 핵심 정보들만 효율적으로 강의
 
 [Solidity 솔리디티 강좌 1강 - Hello Solidity](https://www.youtube.com/watch?v=QYeBPgqKgIc&list=PLJQKWHLhBrxI43w0DU4uQrhWv4Pm1OFlx&ab_channel=D_One)
-
----
-
-지난 주와 마찬가지로 효과적인 학습을 위해 리서치와 개발 과제가 하나씩 주어졌습니다.
-
-시험 기간을 고려해 부담은 줄이고, 꼭 필요한 핵심 개념을 담았으니 집중해서 공부해 주세요!
-이번 주까지 진행하고 중간고사 기간에는 휴식 주간을 가질 예정입니다.
-
-이번 주도 화이팅입니다✌!
 
 ---
 
