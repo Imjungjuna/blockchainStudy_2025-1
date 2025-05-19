@@ -3,7 +3,7 @@
 5주차에는 **Foundry 사용법**을 복습하는 시간입니다.
 
 지난주 주점 및 엠티, 학교 행사 등으로 인해 다들 바쁘셨고 wsl 설치에서부터 고전하신 분도 계시기에 과제를 더 많이 나간다기보다는 지난주 과제를 복습하는 것이 맞겠다고 판단했습니다.
----
+
 
 ## **첫 번째 과제:** 지난 주 과제 복습해오기
 
@@ -52,10 +52,10 @@ getTotalItemsSold(): 현재까지 팔린 상품의 총 개수를 반환
 
 가격표 (단위: 천원)
 
-Admission(입장) - 20
-Odeng Soup(오뎅탕) - 10
-Steamed Eggs(계란찜) - 3
-Sausage and Vegetable Stir-fry(쏘세지 야채볶음)
+* Admission(입장) - 20
+* Odeng Soup(오뎅탕) - 10
+* Steamed Eggs(계란찜) - 3
+* Sausage and Vegetable Stir-fry(쏘세지 야채볶음)
 ​
 
 변수 및 이벤트 목록
