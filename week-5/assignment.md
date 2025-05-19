@@ -33,6 +33,7 @@ https://docs.google.com/document/d/1jcBJOpds4XC4o_5K-34yAhWGLz6OQIKrvaBVIYhWlz8/
 다음 스터디 시간에 문서 속 시나리오대로 상호작용 한 후 지갑2의 잔액을 스크린샷 한 것을 확인하겠습니다.
 
 
+
 ## **두 번째 과제:** Foundry 실습: 성균관대학교 축제 주점 매출 기록
 두 번째 과제는 '대학교 축제 주점 매출 기록' 컨트랙트를 개발입니다. 코밋 축제 주점의 당일 매출을 기록하는 간단한 컨트랙트입니다.
 
@@ -44,10 +45,11 @@ https://docs.google.com/document/d/1jcBJOpds4XC4o_5K-34yAhWGLz6OQIKrvaBVIYhWlz8/
 
 함수 (Functions)
 
-constructor(): 상품별 초기 가격을 itemPrices 매핑에 설정
-recordSale(itemName): 상품 이름을 인자로 받아 해당 상품의 가격만큼 총 매출 증가시키고, 팔린 상품 총 개수를 증가. 매출 기록 이벤트 발생, 총 매출이 50을 넘겼다면 콘솔 출력 및 해당 이벤트 발생
-getTotalRevenue(): 현재까지의 총 매출을 반환
-getTotalItemsSold(): 현재까지 팔린 상품의 총 개수를 반환
+* constructor(): 상품별 초기 가격을 itemPrices 매핑에 설정
+* recordSale(itemName): 상품 이름을 인자로 받아 해당 상품의 가격만큼 총 매출 증가시키고, 팔린 상품 총 개수를 증가. 
+매출 기록 이벤트 발생, 총 * 매출이 50을 넘겼다면 콘솔 출력 및 해당 이벤트 발생
+* getTotalRevenue(): 현재까지의 총 매출을 반환
+* getTotalItemsSold(): 현재까지 팔린 상품의 총 개수를 반환
 
 
 가격표 (단위: 천원)
@@ -60,22 +62,22 @@ getTotalItemsSold(): 현재까지 팔린 상품의 총 개수를 반환
 
 변수 및 이벤트 목록
 
-총 매출을 저장하는 변수 totalRevenue
-팔린 상품의 총 개수를 저장하는 변수 totalItemsSold
-상품별 가격을 저장하는 매핑 mapping(string => uint) itemPrices;
+* 총 매출을 저장하는 변수 totalRevenue
+* 팔린 상품의 총 개수를 저장하는 변수 totalItemsSold
+* 상품별 가격을 저장하는 매핑 mapping(string => uint) itemPrices;
 ---
-매출 50(천원) 달성 시 발생하는 이벤트 RevenueMilestone50
-매출 생길 때마다 기록하는 이벤트 SaleRecorded
+* 매출 50(천원) 달성 시 발생하는 이벤트 RevenueMilestone50
+* 매출 생길 때마다 기록하는 이벤트 SaleRecorded
 
 
 2. 배포 및 테스트 코드 작성
 
 테스트 함수는 간단히 두 가지입니다.
 
-testRecordSale()
+* testRecordSale()
 테스트 1: 기본 판매 기록 및 상태 업데이트 테스트
 
-testRevenueMilestone50Trigger()
+* testRevenueMilestone50Trigger()
 테스트 2: 매출 50 달성 이벤트 테스트
 
 세부 로직은 자유입니다. test 스크립트 작성 후에 실제로 테스트를 통과하시는지 확인해보시기 바랍니다.
